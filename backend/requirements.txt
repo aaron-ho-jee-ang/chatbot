@@ -1,0 +1,6 @@
+flask
+flask-cors
+langdetect
+openai
+pymongo
+python-dotenv

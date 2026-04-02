@@ -42,8 +42,7 @@ services:
 
   cloudflared:
     image: cloudflare/cloudflared:latest
-    command: tunnel --no-autoupdate run
-    env_file: .env
+    command: tunnel --no-autoupdate --url http://frontend:3000
     depends_on:
       - frontend
 
